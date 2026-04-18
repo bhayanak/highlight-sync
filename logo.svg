@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <rect width="128" height="128" rx="28" fill="#6366f1"/>
+  <g transform="translate(24, 18)">
+    <!-- Pen/highlighter body -->
+    <rect x="30" y="8" width="20" height="60" rx="4" fill="#fef08a" stroke="#fff" stroke-width="2"/>
+    <rect x="30" y="8" width="20" height="16" rx="4" fill="#eab308" stroke="#fff" stroke-width="2"/>
+    <!-- Pen tip -->
+    <polygon points="30,68 50,68 40,88" fill="#fef08a" stroke="#fff" stroke-width="2"/>
+    <!-- Sync arrows -->
+    <path d="M62 40 Q72 30 72 42" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <polygon points="72,42 76,36 68,38" fill="#fff"/>
+    <path d="M18 50 Q8 60 8 48" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <polygon points="8,48 4,54 12,52" fill="#fff"/>
+  </g>
+</svg>

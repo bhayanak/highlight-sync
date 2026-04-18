@@ -1,0 +1,9 @@
+/* Highlight Sync — Content Script Styles */
+
+mark[data-hs-id] {
+  transition: background-color 0.2s ease;
+}
+
+mark[data-hs-id]:hover {
+  filter: brightness(0.92);
+}
