@@ -15,8 +15,9 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "test:e2e": "playwright test",
-    "package:chrome": "pnpm build && mkdir -p dist-chrome && cd dist && zip -r ../dist-chrome/highlight-sync.zip .",
-    "package:firefox": "pnpm build && web-ext build --source-dir dist --artifacts-dir dist-firefox --overwrite-dest",
+    "package:chrome": "node scripts/package-chrome.mjs",
+    "package:edge": "node scripts/package-edge.mjs",
+    "package:firefox": "node scripts/package-firefox.mjs",
     "validate": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test:coverage && pnpm build",
     "ci": "pnpm run typecheck && pnpm run lint && pnpm run format:check && pnpm run test:coverage && pnpm run build"
   },

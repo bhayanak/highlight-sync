@@ -1,7 +1,10 @@
 node_modules/
 dist/
 dist-chrome/
+dist-edge/
 dist-firefox/
+dist-edge-tmp/
+dist-firefox-tmp/
 coverage/
 *.zip
 *.xpi

@@ -73,11 +73,16 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
       - run: pnpm package:chrome
+      - run: pnpm package:edge
+      - run: pnpm package:firefox
       - uses: actions/upload-artifact@v4
         with:
           name: highlight-sync-chrome
           path: dist-chrome/*.zip
-      - run: pnpm package:firefox
+      - uses: actions/upload-artifact@v4
+        with:
+          name: highlight-sync-edge
+          path: dist-edge/*.zip
       - uses: actions/upload-artifact@v4
         with:
           name: highlight-sync-firefox

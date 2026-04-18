@@ -20,6 +20,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
       - run: pnpm package:chrome
+      - run: pnpm package:edge
       - run: pnpm package:firefox
       - uses: anchore/sbom-action@v0
         with:
@@ -29,6 +30,7 @@ jobs:
         with:
           files: |
             dist-chrome/*.zip
+            dist-edge/*.zip
             dist-firefox/*.xpi
             sbom.spdx.json
           generate_release_notes: true

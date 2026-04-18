@@ -36,10 +36,12 @@
 ## Install
 
 ### Chrome Web Store
-> Coming soon — see [DEPLOY.md](DEPLOY.md) for manual install
+> Coming soon 
 
 ### Firefox Add-ons
-> Coming soon — see [DEPLOY.md](DEPLOY.md) for manual install
+> Coming soon 
+
+Note: Use github release for installing extensions/addons for now.
 
 ### Manual Install (Developer Mode)
 
@@ -103,51 +105,6 @@ pnpm build
 | **Anki Export** | ✅ | ❌ | ❌ |
 | **Self-hosted Sync** | ✅ | ❌ | ❌ |
 | **Privacy-First** | ✅ | ❌ | ❌ |
-
-## Development
-
-```bash
-# Install dependencies
-pnpm install
-
-# Start dev server with hot reload
-pnpm dev
-
-# Run tests
-pnpm test
-
-# Run tests with coverage
-pnpm test:coverage
-
-# Type check
-pnpm typecheck
-
-# Lint
-pnpm lint
-
-# Build for production
-pnpm build
-
-# Package for Chrome
-pnpm package:chrome
-
-# Package for Firefox
-pnpm package:firefox
-
-# Full validation (typecheck + lint + format + test + build)
-pnpm validate
-```
-
-### Tech Stack
-
-- **React 18** + **TypeScript** — UI framework
-- **Vite** + **CRXJS** — Build toolchain (Manifest V3)
-- **Dexie.js** — IndexedDB wrapper
-- **Tailwind CSS** — Styling
-- **Zustand** — State management
-- **Vitest** — Unit testing
-- **ESLint** + **eslint-plugin-security** — Linting & security
-- **Prettier** — Code formatting
 
 ## Security
 
