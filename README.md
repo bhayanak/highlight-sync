@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AjayYadavAi/highlight-sync/actions/workflows/ci.yml"><img src="https://github.com/AjayYadavAi/highlight-sync/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
-  <a href="https://codecov.io/gh/AjayYadavAi/highlight-sync"><img src="https://codecov.io/gh/AjayYadavAi/highlight-sync/branch/main/graph/badge.svg" alt="Coverage" /></a>
+  <a href="https://github.com/bhayanak/highlight-sync/actions/workflows/ci.yml"><img src="https://github.com/bhayanak/highlight-sync/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://codecov.io/gh/bhayanak/highlight-sync"><img src="https://codecov.io/gh/bhayanak/highlight-sync/branch/main/graph/badge.svg" alt="Coverage" /></a>
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="License" />
   <img src="https://img.shields.io/badge/manifest-v3-green" alt="Manifest V3" />
   <img src="https://img.shields.io/badge/chrome-%3E%3D109-brightgreen?logo=googlechrome" alt="Chrome" />
@@ -46,7 +46,7 @@ Note: Use github release for installing extensions/addons for now.
 ### Manual Install (Developer Mode)
 
 ```bash
-git clone https://github.com/AjayYadavAi/highlight-sync.git
+git clone https://github.com/bhayanak/highlight-sync.git
 cd highlight-sync
 pnpm install
 pnpm build
