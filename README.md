@@ -41,6 +41,9 @@
 ### Firefox Add-ons
 > Coming soon 
 
+### Edge Extension
+> Coming soon 
+
 Note: Use github release for installing extensions/addons for now.
 
 ### Manual Install (Developer Mode)
@@ -91,6 +94,23 @@ pnpm build
 | Shortcut | Action |
 |----------|--------|
 | `Ctrl/Cmd + Shift + H` | Highlight selected text (yellow) |
+
+## Screens
+<p align="center">
+  <img src="public/screens/1.png" width="400" alt="Screenshot 1" />
+  <img src="public/screens/2.png" width="400" alt="Screenshot 2" />
+</p>
+
+<p align="center">
+  <img src="public/screens/3.png" width="400" alt="Screenshot 3" />
+  <img src="public/screens/4.png" width="400" alt="Screenshot 4" />
+</p>
+
+<p align="center">
+  <img src="public/screens/5.png" width="400" alt="Screenshot 5" />
+  <img src="public/screens/6.png" width="400" alt="Screenshot 6" />
+</p>
+
 
 ## Comparison
 
