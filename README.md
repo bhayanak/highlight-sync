@@ -114,17 +114,17 @@ pnpm build
 
 ## Comparison
 
-| Feature | Highlight Sync | Readwise ($8/mo) | Liner (Freemium) |
-|---------|:---:|:---:|:---:|
-| **Price** | Free | $96/year | Free tier limited |
-| **Open Source** | ✅ | ❌ | ❌ |
-| **Local-First** | ✅ | ❌ | ❌ |
-| **No Account Required** | ✅ | ❌ | ❌ |
-| **Spaced Repetition** | ✅ | ✅ | ❌ |
-| **Obsidian Export** | ✅ | ✅ | ❌ |
-| **Anki Export** | ✅ | ❌ | ❌ |
-| **Self-hosted Sync** | ✅ | ❌ | ❌ |
-| **Privacy-First** | ✅ | ❌ | ❌ |
+| Feature | Highlight Sync | Others | 
+|---------|:---:|:---:|
+| **Price** | Free | cost/year or limited |
+| **Open Source** | ✅ | ❌ |
+| **Local-First** | ✅ | ❌ | 
+| **No Account Required** | ✅ | ❌ | 
+| **Spaced Repetition** | ✅ | Partially |
+| **Obsidian Export** | ✅ | Partially | 
+| **Anki Export** | ✅ | ❌ | 
+| **Self-hosted Sync** | ✅ | ❌ |
+| **Privacy-First** | ✅ | ❌ | 
 
 ## Security
 
