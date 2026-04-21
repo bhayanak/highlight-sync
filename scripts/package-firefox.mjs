@@ -23,6 +23,9 @@ manifest.browser_specific_settings = {
   gecko: {
     id: 'highlight-sync@extension',
     strict_min_version: '109.0',
+    data_collection_permissions: {
+      required: ['none'],
+    },
   },
 };
 
